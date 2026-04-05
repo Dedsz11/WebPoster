@@ -1,0 +1,15 @@
+.poster {
+  width: 1123px;
+  height: 794px;
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  padding: 40px;
+  border-radius: 15px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+
+  display: flex;              /* ADD */
+  flex-direction: column;     /* ADD */
+  justify-content: center;    /* vertical center */
+  align-items: center;        /* horizontal center */
+  text-align: center;
+}
